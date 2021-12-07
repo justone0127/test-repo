@@ -24,7 +24,7 @@ spec:
         app: example-nginx-helloworld-git
     spec:
       containers:
-      - image: quay.apps.cluster-7d8c.sandbox1410.opentlc.com/admin/example-nginx:latest
+      - image: quay.io/hanayou/example-nginx-helloworld:latest
         imagePullPolicy: Always
         name: example-nginx-helloworld-git
         ports:
